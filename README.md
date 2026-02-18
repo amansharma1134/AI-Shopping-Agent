@@ -2,14 +2,14 @@
 
 An AI-powered semantic product search and recommendation system that uses text embeddings and cosine similarity to return meaning-based product results instead of traditional keyword matching.
 ---
-📌 Problem Statement
+## 📌 Problem Statement
 
 Traditional e-commerce search systems rely on keyword matching.
 If users search using different words (e.g., "gym footwear" instead of "running shoes"), relevant results may not appear.
 
 This project solves that by implementing semantic search using vector embeddings and similarity scoring.
 ---
-🛠 Tech Stack
+## 🛠 Tech Stack
 Frontend
 -React.js
 -Axios
@@ -32,7 +32,7 @@ Backend
 - ⚡ FastAPI backend  
 - 💻 React frontend  
 ---
-🧠 How It Works
+## 🧠 How It Works
 
 1.User enters a search query.
 2.Backend converts the query into an embedding vector.
@@ -42,7 +42,7 @@ Backend
 6.JSON response is sent back to frontend.
 7.React displays results dynamically.
 ---
-🏗 Architecture
+## 🏗 Architecture
 
 Frontend (React)
 ⬇ HTTP Request
@@ -77,7 +77,7 @@ AI-Shopping-Agent/
 │
 └── README.md
 ---
-▶️ How to Run Locally
+## ▶️ How to Run Locally
 Backend
 -cd backend
 -pip install -r requirements.txt
@@ -87,7 +87,7 @@ Frontend
 -npm install
 -npm start
 ---
-📈 Future Improvements
+## 📈 Future Improvements
 
 Replace local embeddings with OpenAI embeddings
 Use vector database (FAISS / Pinecone)
@@ -107,5 +107,6 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app:app --reload
-```bash
+
+
 

@@ -1,6 +1,7 @@
 # 🛍️ AI Shopping Agent
 
 An AI-powered semantic product search and recommendation system that uses text embeddings and cosine similarity to return meaning-based product results instead of traditional keyword matching.
+
 ---
 ## 📌 Problem Statement
 
@@ -8,8 +9,10 @@ Traditional e-commerce search systems rely on keyword matching.
 If users search using different words (e.g., "gym footwear" instead of "running shoes"), relevant results may not appear.
 
 This project solves that by implementing semantic search using vector embeddings and similarity scoring.
+
 ---
 ## 🛠 Tech Stack
+
 Frontend
 -React.js
 -Axios
@@ -19,6 +22,7 @@ Backend
 -Python
 -NumPy
 -Pickle (for storing embeddings)
+
 ---
 ## 🚀 Features
 - 🔍 Semantic product search using transformer embeddings
@@ -32,6 +36,7 @@ Backend
 - ⚡ FastAPI backend  
 - 💻 React frontend  
 ---
+
 ## 🧠 How It Works
 
 1.User enters a search query.
@@ -41,6 +46,7 @@ Backend
 5.Results are optionally sorted by price.
 6.JSON response is sent back to frontend.
 7.React displays results dynamically.
+
 ---
 ## 🏗 Architecture
 
@@ -57,6 +63,7 @@ Sorted Results
 JSON Response
 ⬇
 Frontend Rendering
+
 ---
 
 ## 🏗️ Project Structure
@@ -76,6 +83,7 @@ AI-Shopping-Agent/
 │   ├── components/
 │
 └── README.md
+
 ---
 ## ▶️ How to Run Locally
 Backend
@@ -86,6 +94,7 @@ Frontend
 -cd frontend
 -npm install
 -npm start
+
 ---
 ## 📈 Future Improvements
 
@@ -95,6 +104,7 @@ Add authentication
 Add pagination
 Dockerize application
 Deploy to cloud (Render + Vercel)
+
 ---
 
 ## ⚙️ Setup Instructions
@@ -107,6 +117,7 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app:app --reload
+
 
 
 

@@ -1,7 +1,6 @@
 # 🛍️ AI Shopping Agent
 
-An AI-powered shopping assistant that enables semantic product search and personalized recommendations using NLP and FastAPI.
-
+An AI-powered semantic product search and recommendation system that uses text embeddings and cosine similarity to return meaning-based product results instead of traditional keyword matching.
 ---
 
 ## 🚀 Features
@@ -18,10 +17,18 @@ An AI-powered shopping assistant that enables semantic product search and person
 
 AI-Shopping-Agent/
 │
-├── backend/        # API & AI logic
-├── frontend/       # User interface
-├── data/           # Dataset files
-├── notebooks/      # Experiments
+├── backend/
+│   ├── app.py
+│   ├── recommender.py
+│   ├── embeddings.py
+│   ├── models.py
+│   ├── database.py
+│   ├── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│
 └── README.md
 
 ---
@@ -47,3 +54,4 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app:app --reload
+
